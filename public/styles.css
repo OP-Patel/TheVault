@@ -1,0 +1,37 @@
+/* Customizing Bootstrap Elements CSS */
+
+.addFont{
+    font-family: 'Work Sans', sans-serif!important;
+}
+
+.addBlueColor{
+    background-color: #B7C4CF !important;
+}
+
+.addLightColor{
+    background-color: #EEE3CB !important;
+}
+
+.addDarkColor{
+    background-color: #967E76 !important;
+}
+
+.addSemiDarkColor{
+    background-color: #D7C0AE !important;
+}
+
+.addBorder{
+    border: none !important; 
+}
+
+#signUpButton{
+    color: white; 
+}
+
+#loginButton{
+    color: black;
+}
+
+#headerText{
+    font-size: 20px;
+}
