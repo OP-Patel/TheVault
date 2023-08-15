@@ -38,3 +38,24 @@ function(){
     $("#headerText").text("The Vault");
     $("#headerText").css("font-size", "20px");
 });
+
+
+$("#bigSignUp").on( "mouseenter", 
+function(){
+    $("#bigSignUp").css("color", "black");
+    $("#bigSignUp").addClass("whiteBG");
+}).on( "mouseleave",  
+function(){
+    $("#bigSignUp").css("color", "white");
+    $("#bigSignUp").removeClass("whiteBG");
+});
+
+$("#bigLogin").on( "mouseenter", 
+function(){
+    $("#bigLogin").css("color", "white");
+    $("#bigLogin").addClass("blackBG");
+}).on( "mouseleave",  
+function(){
+    $("#bigLogin").css("color", "black");
+    $("#bigLogin").removeClass("blackBG");
+});

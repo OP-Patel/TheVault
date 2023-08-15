@@ -1,7 +1,11 @@
 /* Customizing Bootstrap Elements CSS */
 
 .addFont{
-    font-family: 'Work Sans', sans-serif!important;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.addTextFont{
+    font-family: 'Rubik', sans-serif !important;
 }
 
 .addBlueColor{
@@ -24,14 +28,22 @@
     border: none !important; 
 }
 
-#signUpButton{
+#signUpButton, #bigSignUp{
     color: white; 
 }
 
-#loginButton{
+#loginButton, #bigLogin{
     color: black;
 }
 
 #headerText{
     font-size: 20px;
+}
+
+.blackBG{
+    background-color: black !important;
+}
+
+.whiteBG{
+    background-color: white !important;
 }
