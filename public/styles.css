@@ -32,12 +32,16 @@
     color: white; 
 }
 
-#loginButton, #bigLogin{
+#loginButton, #bigLogin, #homeButton{
     color: black;
 }
 
 #headerText{
     font-size: 20px;
+}
+
+#registerText, #loginText{
+    font-size: 25px
 }
 
 /* Classes for JS on hover functionality */
@@ -76,7 +80,7 @@
     }
 
     25%{
-        background-color: #CDC2AE;
+        background-color: #B7C4CF;
     }
 
     50% {
@@ -84,7 +88,7 @@
     }
 
     75%{
-        background-color: #B7C4CF;
+        background-color: #CDC2AE;
     }
 
     to {

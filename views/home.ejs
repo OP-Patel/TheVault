@@ -1,10 +1,5 @@
 <%- include ("partials/header") %> 
 
-<div class="container my-3 addLightColor paddingLayers">
-    <div class="rounded-2 p-2 m-0 changingColor"> 
-    </div>
-</div>
-
 <div class="container my-4 addLightColor">
     <div class="mainBlock addBlueColor p-5 text-center rounded-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
@@ -19,22 +14,20 @@
         This web-app utilizes a <code>MongoDB</code> database, paired with <code>node.js</code>, <code>JS/EJS</code>, <code>HTML</code>, <code>and more</code>. This provides a stylish front-end coupled with a strong back-end to protect senstive information. Give it a try! Sign up below or at the top-right of the page, then use the same details to login!
       </p>
       <div class="d-inline-flex gap-2 mb-5">
-        <button id="bigLogin" class="addBorder addSemiDarkColor addTextFont d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+        <a href="/login"><button id="bigLogin" class="addBorder addSemiDarkColor addTextFont d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
           Login
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-box-arrow-in-right ms-2" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
             <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
           </svg>
         </button>
-        <button id="bigSignUp" class="addBorder addDarkColor addTextFont btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+        </a>
+        <a href="/register"><button id="bigSignUp" class="addBorder addDarkColor addTextFont btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
           Sign-up
         </button>
+        </a>
+        </div>
       </div>
-    </div>
-</div>
-
-<div class="container my-3 addLightColor paddingLayers">
-    <div class="rounded-2 p-2 m-0 changingColor"> 
     </div>
 </div>
 

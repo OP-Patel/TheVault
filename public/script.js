@@ -60,6 +60,27 @@ function(){
     $("#bigLogin").removeClass("blackBG");
 });
 
+
+$("#registerText").on( "mouseenter", 
+function(){
+        $("#registerText").text("Not where you want to be?");
+        $("#registerText").css("font-size", "25px");
+
+    setTimeout(function(){
+        $("#homeButton").addClass("whiteBG");
+        $("#homeButton").css("transform", "scale(1.1)");
+        
+     }, 150); 
+}).on( "mouseleave",  
+function(){
+    $("#homeButton").removeClass("whiteBG");
+    $("#homeButton").css("transform", "scale(1)");
+
+    $("#registerText").delay().text("You are at the sign-up page.");
+    $("#registerText").css("font-size", "25px");
+});
+
+
 // Fading animation on hover for icons in footer/header
 $("#footerIcon").on( "mouseenter", 
 function(){
@@ -68,6 +89,7 @@ function(){
 function(){
     $("#footerIcon").stop().animate({ "opacity": 1 }, 300)
 });
+
 
 $("#headerIcon").on( "mouseenter", 
 function(){
