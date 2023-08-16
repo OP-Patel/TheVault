@@ -60,6 +60,14 @@ function(){
     $("#bigLogin").removeClass("blackBG");
 });
 
+$("#footerIcon").on( "mouseenter", 
+function(){
+    $("#footerIcon").stop().animate({ "opacity": 0.25 }, 150)
+}).on( "mouseleave",  
+function(){
+    $("#footerIcon").stop().animate({ "opacity": 1 }, 300)
+});
+
 $(function () {
     var footerTexts = [],
         index = 0;
@@ -71,7 +79,7 @@ $(function () {
     function cycle() {
         $('#footerText').text(footerTexts[index]);
         index++;
-        
+
         if (index === footerTexts.length) {
             index = 0;
         }
