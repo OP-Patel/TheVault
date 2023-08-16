@@ -101,3 +101,16 @@
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
 }
+
+/* All button on-click and click-hold animations */
+
+button{
+    transition: transform 1s;
+    transition: box-shadow 0.1s;
+}
+button:active{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px #D7C0AE;
+
+}
