@@ -32,8 +32,12 @@
     color: white; 
 }
 
-#loginButton, #bigLogin, #homeButton{
+#loginButton, #bigLogin{
     color: black;
+}
+
+.homeButton{
+    color: black !important;
 }
 
 #headerText{
@@ -70,6 +74,10 @@
 .mainBlock:hover{
     -webkit-transform: scale(1);
     transform: scale(1.05);
+}
+
+.addTransform{
+    transform: scale(1.1);
 }
 
 /* Color change on hover of each padding layer */

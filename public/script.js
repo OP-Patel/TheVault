@@ -67,17 +67,42 @@ function(){
         $("#registerText").css("font-size", "25px");
 
     setTimeout(function(){
-        $("#homeButton").addClass("whiteBG");
-        $("#homeButton").css("transform", "scale(1.1)");
+        $(".homeButton").addClass("whiteBG");
+        $(".homeButton").addClass("addTransform");
         
      }, 150); 
 }).on( "mouseleave",  
 function(){
-    $("#homeButton").removeClass("whiteBG");
-    $("#homeButton").css("transform", "scale(1)");
-
-    $("#registerText").delay().text("You are at the sign-up page.");
+    $("#registerText").text("You are at the sign-up page.");
     $("#registerText").css("font-size", "25px");
+
+    setTimeout(function(){
+        $(".homeButton").removeClass("whiteBG");
+        $(".homeButton").removeClass("addTransform");
+    
+    }, 150)
+});
+
+$("#loginText").on( "mouseenter", 
+function(){
+        $("#loginText").text("Not where you want to be?");
+        $("#loginText").css("font-size", "25px");
+
+    setTimeout(function(){
+        $(".homeButton").addClass("whiteBG");
+        $(".homeButton").addClass("addTransform")
+        
+     }, 150); 
+}).on( "mouseleave",  
+function(){
+    $("#loginText").text("You are at the login page.");
+    $("#loginText").css("font-size", "25px");
+    
+    setTimeout(function(){
+        $(".homeButton").removeClass("whiteBG");
+        $(".homeButton").removeClass("addTransform")
+    
+    }, 150)
 });
 
 
