@@ -59,3 +59,23 @@ function(){
     $("#bigLogin").css("color", "black");
     $("#bigLogin").removeClass("blackBG");
 });
+
+$(function () {
+    var footerTexts = [],
+        index = 0;
+    footerTexts.push("Fast");
+    footerTexts.push("Secure");
+    footerTexts.push("Powerful");
+    footerTexts.push("Try now.");
+
+    function cycle() {
+        $('#footerText').text(footerTexts[index]);
+        index++;
+        
+        if (index === footerTexts.length) {
+            index = 0;
+        }
+        setTimeout(cycle, 2000);
+    }
+    cycle();
+});
