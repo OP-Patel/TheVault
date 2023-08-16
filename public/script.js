@@ -1,7 +1,7 @@
 // Linked to the footer.ejs to provide functionality to application
 
 
-// Manual hover functions, changing the button background color and text color. 
+// Manual hover functions, changing buttong background color and text color
 
 $("#loginButton").on( "mouseenter", 
 function(){
@@ -60,6 +60,7 @@ function(){
     $("#bigLogin").removeClass("blackBG");
 });
 
+// Fading animation on hover for icons in footer/header
 $("#footerIcon").on( "mouseenter", 
 function(){
     $("#footerIcon").stop().animate({ "opacity": 0.25 }, 150)
@@ -68,6 +69,16 @@ function(){
     $("#footerIcon").stop().animate({ "opacity": 1 }, 300)
 });
 
+$("#headerIcon").on( "mouseenter", 
+function(){
+    $("#headerIcon").stop().animate({ "opacity": 0.25 }, 150)
+}).on( "mouseleave",  
+function(){
+    $("#headerIcon").stop().animate({ "opacity": 1 }, 300)
+});
+
+
+// Scrolling text in footer
 $(function () {
     var footerTexts = [],
         index = 0;

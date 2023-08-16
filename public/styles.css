@@ -40,10 +40,64 @@
     font-size: 20px;
 }
 
+/* Classes for JS on hover functionality */
+
 .blackBG{
-    background-color: black !important;
+    background-color: black !important; 
 }
 
 .whiteBG{
     background-color: white !important;
+}
+
+/* Hover transitions */
+
+.paddingLayers {
+    transition: transform 1s;
+  }
+.paddingLayers:hover {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(2);
+}
+
+.mainBlock {
+    transition: transform 1s;
+  }
+.mainBlock:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+}
+
+/* Color change on hover of each padding layer */
+
+@keyframes change-color {
+    from {
+      background-color: #D7C0AE;
+    }
+
+    25%{
+        background-color: #CDC2AE;
+    }
+
+    50% {
+        background-color: #967E76;
+    }
+
+    75%{
+        background-color: #B7C4CF;
+    }
+
+    to {
+      background-color: #D7C0AE;
+    }
+  }
+
+.changingColor{
+    background-color: #D7C0AE;
+}
+
+.changingColor:hover{
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
 }
