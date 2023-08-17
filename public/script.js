@@ -28,6 +28,20 @@ function(){
     $("#signUpButton").addClass("addDarkColor");
 });
 
+$("#signinButton").on( "mouseenter", 
+function(){
+    $("#signinButton").css("color", "black");
+    $("#signinButton").removeClass("addDarkColor");
+    $("#signinButton").addClass("addBlueColor");
+}).on( "mouseleave",  
+function(){
+    $("#signinButton").css("color", "white");
+    $("#signinButton").removeClass("addBlueColor"); 
+    $("#signinButton").addClass("addDarkColor");
+});
+
+
+
 $("#headerText").on( "mouseenter", 
 function(){
     $("#headerText").text("Om Patel");
@@ -145,3 +159,5 @@ $(function () {
     }
     cycle();
 });
+
+$(".inputs").addClass("addBodyText");

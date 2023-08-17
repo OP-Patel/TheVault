@@ -36,6 +36,10 @@
     color: black;
 }
 
+#signinButton{
+    color: white;
+}
+
 .homeButton{
     color: black !important;
 }
@@ -46,6 +50,11 @@
 
 #registerText, #loginText{
     font-size: 25px
+}
+
+
+#registerText, #loginText{
+    display: inline-block;
 }
 
 /* Classes for JS on hover functionality */
@@ -126,7 +135,33 @@ button:hover{
     box-shadow: 3px 3px 5px #D7C0AE;
 }
 
+#signUpButton:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px #B7C4CF;
+}
+
+#signinButton:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px #B7C4CF;
+}
+
 button:active{
     -webkit-transform: scale(1.05);
     transform: scale(1.07);
+}
+
+#wrapper, #wrapper1
+{
+    display: block;
+    text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }

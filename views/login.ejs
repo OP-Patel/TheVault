@@ -43,9 +43,32 @@
     <div class="rounded-2 p-2 m-0 changingColor"> 
     </div>
 </div>
-<div class="container p-0">
+<div class="container p-0 text-center">
     <p id="loginText" class="addTextFont text-center">You are at the login page.</p>
 </div>
 <body class = "addLightColor">
+
+    
+<div class="container" id="wrapper">
+    <form METHOD="POST">
+        <h1 class="inputs text-center h3 mb-3">Please log in</h1>
+    
+        <div class="form-floating inputs">
+          <input class="form-control" name="username" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Username</label>
+        </div>
+
+        <div class="form-floating inputs">
+          <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="text-start my-2 mb-3">
+            <button class="inputs addDarkColor addBorder btn btn-primary w-100" id ="signinButton" type="submit">Log in</button>
+        </div>
+        
+    </form>
+</div>
+
 
 <%- include("partials/footer.ejs") %>
