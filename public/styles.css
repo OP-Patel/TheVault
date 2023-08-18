@@ -222,12 +222,15 @@ form
 }
 
 .bigWrapper{
-    height: 90vh;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
+#space{
+    height: 50vh;
+}
 
 #scrollIcon {
     -webkit-animation: hoverUpandDown 1s infinite linear;
