@@ -120,6 +120,7 @@
 .changingColor:hover{
     animation-name: change-color;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
@@ -152,6 +153,12 @@ button:active{
     transform: scale(1.07);
 }
 
+#endLog:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 7px #4F4557;
+}
+
 #wrapper, #wrapper1
 {
     display: block;
@@ -164,4 +171,52 @@ form
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+
+@keyframes change-color-dark {
+    from {
+      background-color: #18122B;
+    }
+
+    40% {
+        background-color: #443C68;
+    }
+
+    60%{
+        background-color: #635985;
+    }
+
+    80%{
+        background-color: #443C68;
+    }
+
+
+    to {
+      background-color: #18122B;
+    }
+  }
+
+.changingColorDark{
+    background-color: #18122B;
+}
+
+.changingColorDark:hover{
+    animation-name: change-color-dark;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.addDullColor{
+    background-color: #F4EEE0 !important;
+}
+
+#endLog{
+    color: #4F4557;
+}
+
+#secretsCopyright{
+    color: whitesmoke !important;
 }
