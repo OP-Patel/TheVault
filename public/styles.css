@@ -89,6 +89,11 @@
     transform: scale(1.1);
 }
 
+#finalParagraph{
+    font-size: 30px; 
+    color: #F4EEE0;
+}
+
 /* Color change on hover of each padding layer */
 
 @keyframes change-color {
@@ -223,6 +228,13 @@ form
 
 .bigWrapper{
     height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.smallWrapper{
+    height: 40vh;
     display: flex;
     align-items: top;
     justify-content: center;
