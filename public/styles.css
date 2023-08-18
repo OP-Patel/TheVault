@@ -28,7 +28,7 @@
     border: none !important; 
 }
 
-#signUpButton, #bigSignUp{
+#signUpButton, #bigSignUp, .launchHeader{
     color: white; 
 }
 
@@ -217,6 +217,29 @@ form
     color: #4F4557;
 }
 
-#secretsCopyright{
+#secretsCopyright, .launchText{
     color: whitesmoke !important;
+}
+
+.bigWrapper{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#scrollIcon {
+    -webkit-animation: hoverUpandDown 1s infinite linear;
+    animation: hoverUpandDown 1s infinite linear;
+}
+@-webkit-keyframes hoverUpandDown {
+     0% { }
+     50% { transform: translateY(-8px); }
+     100% { }
+}
+@keyframes hoverUpandDown {
+     0% { }
+     50% { transform: translateY(-8px); }
+     100% { }
 }

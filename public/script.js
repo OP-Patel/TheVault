@@ -1,5 +1,5 @@
 // Linked to the footer.ejs to provide functionality to application
-AOS.init({duration: 1200}); //Initalize AOS Library before use in secrets.ejs
+AOS.init({duration: 1000}); //Initalize AOS Library before use in secrets.ejs
 
 // Manual hover functions, changing buttong background color and text color
 
