@@ -179,33 +179,6 @@ form
 }
 
 
-@keyframes change-color-dark {
-    from {
-      background-color: #18122B;
-    }
-
-    40% {
-        background-color: #443C68;
-    }
-
-    60%{
-        background-color: #635985;
-    }
-
-    80%{
-        background-color: #443C68;
-    }
-
-
-    to {
-      background-color: #18122B;
-    }
-  }
-
-.changingColorDark{
-    background-color: #18122B;
-}
-
 .changingColorDark:hover{
     animation-name: change-color-dark;
     animation-duration: 5s;
