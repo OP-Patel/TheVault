@@ -20,7 +20,7 @@ Used Postman to test server requests.
 
 <h2>Graphical Info</h2>
 
-Website animations are created with the use of native CSS, npm AOS library, JS and Bootstrap. <br>
+Website animations are created with the use of native CSS, AOS library, JS and Bootstrap. <br>
 
 Color Palettes used: <br>
 https://colorhunt.co/palette/3936464f45576d5d6ef4eee0  <br>
