@@ -15,6 +15,8 @@ Libraries/Frameworks/Technical scope: jQuery, node.js, npm (passport, mongoose, 
 Database: MongoDB used with Studio3T <br>
 Server/Backend: node.js (express) <br>
 
+Used Postman to test server requests.
+
 <h2>Graphical Info</h2>
 
 Website animations are created with the use of native CSS, npm AOS library, JS and Bootstrap. <br>
