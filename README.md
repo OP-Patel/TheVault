@@ -27,7 +27,7 @@ https://colorhunt.co/palette/3936464f45576d5d6ef4eee0  <br>
 https://colorhunt.co/palette/b7c4cfeee3cbd7c0ae967e76
 (Does not include all colors used)
 
-<h2>Live Demo:</h2>
+<h2>Live Demo</h2>
 In-depth demo click below or visit link: https://www.youtube.com/watch?v=DubNtNajbV4 <br>
 
 [![Live Demo Thumbnail Link](https://img.youtube.com/vi/DubNtNajbV4/0.jpg)](https://www.youtube.com/watch?v=DubNtNajbV4)
