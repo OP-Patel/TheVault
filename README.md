@@ -14,6 +14,7 @@ Languages: JS, CSS, HTML + EJS <br>
 Libraries/Frameworks/Technical scope: jQuery, node.js, npm (passport, mongoose, express, git etc.), Bootstrap<br>
 Database: MongoDB used with Studio3T <br>
 Server/Backend: node.js (express) <br>
+<br>
 
 Used Postman to test server requests.
 
@@ -28,6 +29,5 @@ https://colorhunt.co/palette/b7c4cfeee3cbd7c0ae967e76
 
 <h2>Live Demo:</h2>
 In-depth demo click below or visit link: https://www.youtube.com/watch?v=DubNtNajbV4 <br>
-
 
 [![Live Demo Thumbnail Link](https://img.youtube.com/vi/DubNtNajbV4/0.jpg)](https://www.youtube.com/watch?v=DubNtNajbV4)
