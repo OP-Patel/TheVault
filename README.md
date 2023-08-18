@@ -7,7 +7,8 @@ Users can then use this combination to log in and access the vault.
 
 
 <h2>Development Info</h2>
-Technical scope: JS, EJS, CSS, HTML + EJS, git, bycrpt (hashing and salting npm library), Bootstrap <br>
+Technical scope: JS, EJS, CSS, HTML + EJS, git,
+Libraries/Frameworks: bycrpt (hashing and salting npm library), passport.js (cookies), Bootstrap <br>
 Database: MongoDB used with Studio3T <br>
 Server/Backend: node.js (express) <br>
 
